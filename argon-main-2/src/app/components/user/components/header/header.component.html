@@ -1,0 +1,26 @@
+<header class="bg-dark text-white">
+  <div class="d-flex align-items-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    <div class="text-center">Argon</div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar nav ml-auto content">
+          <li>
+            <a routerLinkActive="active" class="text-info text-decoration-none ms-3 p-1" routerLink="./home">Home</a>
+          </li>
+          <li>
+            <a routerLinkActive="active" class="text-info text-decoration-none ms-3 p-1" routerLink="./games">Games</a>
+          </li>
+          <li>
+            <a routerLinkActive="active" class="text-info text-decoration-none ms-3 p-1"
+              routerLink="./contacts">Contacts</a>
+          </li>
+
+        </ul> <button type="button" class="bot" (click)="logout()">
+    Logout
+  </button>
+      </div>
+
+    </nav>
+  </div>
+ 
+</header>
